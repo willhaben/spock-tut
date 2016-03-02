@@ -26,7 +26,7 @@ class DataDrivenSpec extends Specification {
     }
 
     //@Unroll
-    def "#person.name is a #sex.toLowerCase() person"() {
+    def "#person.name is a #gender.toLowerCase() person"() {
       expect:
         person.getGender() == gender
 
